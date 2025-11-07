@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solak | Token Drop Futurista</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="grid"></canvas>
+    <header class="navbar">
+      <div class="logo">Solak Drop</div>
+      <nav>
+        <a href="#vision">Visión</a>
+        <a href="#tokenomics">Tokenomics</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <button class="cta ghost">Acceder al Drop</button>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-text">
+          <h1>
+            El futuro del valor digital<br />
+            <span>está escrito en Solak</span>
+          </h1>
+          <p>
+            Conecta con la nueva generación de tokens hipereficientes y forma parte
+            de una comunidad impulsada por la energía solar y el poder de la
+            inteligencia colectiva.
+          </p>
+          <div class="actions">
+            <button class="cta">Participar en el Drop</button>
+            <button class="cta ghost">Leer el Lightpaper</button>
+          </div>
+          <div class="stats">
+            <div class="stat">
+              <span class="label">Inicio del Drop</span>
+              <span class="value" id="countdown">00d : 00h : 00m : 00s</span>
+            </div>
+            <div class="stat">
+              <span class="label">Suministro Total</span>
+              <span class="value">1,000,000 SOLK</span>
+            </div>
+            <div class="stat">
+              <span class="label">Participantes en Lista</span>
+              <span class="value" id="whitelist">32,540</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="card-header">
+            <span class="pill">Drop Inminente</span>
+            <h2>Solak Genesis NFT</h2>
+          </div>
+          <p>
+            Reclama un pase de energía fotónica que te permitirá validar nodos, obtener
+            recompensas solares y desbloquear contenido exclusivo del metaverso Solak.
+          </p>
+          <ul class="card-list">
+            <li>
+              <span>Acceso prioritario al Launchpad</span>
+              <strong>Fase Solar</strong>
+            </li>
+            <li>
+              <span>APY proyectado</span>
+              <strong>18% - 24%</strong>
+            </li>
+            <li>
+              <span>Bonificación por staking</span>
+              <strong>+12% energía</strong>
+            </li>
+          </ul>
+          <button class="cta full">Conectar Wallet</button>
+        </div>
+      </section>
+
+      <section class="vision" id="vision">
+        <div class="section-title">
+          <h3>Visión Solar</h3>
+          <p>
+            Un ecosistema autosostenible que combina validación energética, liquidez
+            programable y gobernanza comunitaria.
+          </p>
+        </div>
+        <div class="grid-3">
+          <article class="glass">
+            <h4>Hipertransmisión</h4>
+            <p>
+              Transferencias cuánticas en menos de 0.2s con comisiones casi nulas
+              gracias a nuestro protocolo fotónico.
+            </p>
+          </article>
+          <article class="glass">
+            <h4>Eco-Staking</h4>
+            <p>
+              Multiplica tu poder de cómputo utilizando energía renovable certificada y
+              obtén recompensas escalables.
+            </p>
+          </article>
+          <article class="glass">
+            <h4>IA Colectiva</h4>
+            <p>
+              Inteligencia artificial coordinada por los holders que optimiza la
+              asignación de liquidez y los modelos de crecimiento.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="tokenomics" id="tokenomics">
+        <div class="section-title">
+          <h3>Estructura Tokenomics</h3>
+          <p>
+            Distribución diseñada para equilibrar incentivos, comunidad y desarrollo
+            sostenido del ecosistema.
+          </p>
+        </div>
+        <div class="tokenomics-content">
+          <div class="token-chart">
+            <div class="segment" style="--size: 0.30; --color: #3dd6d0;"><span>Comunidad</span><strong>30%</strong></div>
+            <div class="segment" style="--size: 0.25; --color: #8156ff;"><span>Staking</span><strong>25%</strong></div>
+            <div class="segment" style="--size: 0.20; --color: #ff6bd6;"><span>Liquidez</span><strong>20%</strong></div>
+            <div class="segment" style="--size: 0.15; --color: #ffb347;"><span>Fundación</span><strong>15%</strong></div>
+            <div class="segment" style="--size: 0.10; --color: #7aff8c;"><span>Equipo</span><strong>10%</strong></div>
+          </div>
+          <ul class="token-list">
+            <li>
+              <strong>Comunidad:</strong> Drop inicial para adopción masiva y programas
+              de recompensa a embajadores.
+            </li>
+            <li>
+              <strong>Staking:</strong> Recompensas dinámicas basadas en la generación
+              de energía renovable tokenizada.
+            </li>
+            <li>
+              <strong>Liquidez:</strong> Liquidez protegida en pools automatizados con
+              verificación en cadena.
+            </li>
+            <li>
+              <strong>Fundación:</strong> Fondos transparentes para proyectos de impacto
+              ambiental y social.
+            </li>
+            <li>
+              <strong>Equipo:</strong> Vesting lineal para asegurar la alineación a
+              largo plazo.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="roadmap" id="roadmap">
+        <div class="section-title">
+          <h3>Roadmap Orbital</h3>
+          <p>
+            Cada fase impulsa la red Solak hacia una infraestructura autosostenible de
+            alcance planetario.
+          </p>
+        </div>
+        <div class="timeline">
+          <div class="milestone active">
+            <span class="phase">Q2 2024</span>
+            <h4>Drop Génesis</h4>
+            <p>Whitelist, auditorías y activación del protocolo fotónico.</p>
+          </div>
+          <div class="milestone">
+            <span class="phase">Q3 2024</span>
+            <h4>Lanzamiento de Launchpad</h4>
+            <p>Integración con partners de energía solar y pools de liquidez.</p>
+          </div>
+          <div class="milestone">
+            <span class="phase">Q4 2024</span>
+            <h4>Metaverso Solak</h4>
+            <p>Experiencias inmersivas y misiones de generación energética.</p>
+          </div>
+          <div class="milestone">
+            <span class="phase">2025</span>
+            <h4>Gobernanza Cuántica</h4>
+            <p>Votaciones DAO impulsadas por IA y recompensas por impacto positivo.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq" id="faq">
+        <div class="section-title">
+          <h3>Preguntas Frecuentes</h3>
+          <p>
+            Todo lo que necesitas saber antes de unirte al drop de Solak.
+          </p>
+        </div>
+        <div class="accordion">
+          <article class="accordion-item">
+            <header>
+              <h4>¿Qué hace único a Solak?</h4>
+              <span class="icon">+</span>
+            </header>
+            <p>
+              Solak combina generación de energía renovable tokenizada con un motor de
+              gobernanza inteligente que prioriza proyectos de impacto real.
+            </p>
+          </article>
+          <article class="accordion-item">
+            <header>
+              <h4>¿Cómo participo del drop?</h4>
+              <span class="icon">+</span>
+            </header>
+            <p>
+              Conecta tu wallet, verifica tu identidad energética y reserva tu lugar
+              entre los primeros validadores solares.
+            </p>
+          </article>
+          <article class="accordion-item">
+            <header>
+              <h4>¿Habrá recompensas por staking?</h4>
+              <span class="icon">+</span>
+            </header>
+            <p>
+              Sí, el staking te permite obtener recompensas ajustadas por el rendimiento
+              energético de los nodos de Solak, con beneficios adicionales para quienes
+              utilicen energía verde certificada.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-grid">
+        <div>
+          <h5>Solak Labs</h5>
+          <p>Construyendo la infraestructura solar para la economía descentralizada.</p>
+        </div>
+        <div>
+          <h5>Recursos</h5>
+          <ul>
+            <li><a href="#">Lightpaper</a></li>
+            <li><a href="#">Auditorías</a></li>
+            <li><a href="#">Programa de Embajadores</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Comunidad</h5>
+          <ul>
+            <li><a href="#">Discord</a></li>
+            <li><a href="#">X (Twitter)</a></li>
+            <li><a href="#">Canal Holográfico</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright">© 2024 Solak Labs. Energía descentralizada.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
